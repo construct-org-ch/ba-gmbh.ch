@@ -132,6 +132,12 @@ body {
 }
 
 
+.project-images{
+  height: 250px;
+}
+.projekte-card-body{
+    height: 110px;
+}
 
 .layout_padding {
     padding: 90px 0;
