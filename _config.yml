@@ -1,14 +1,15 @@
 # Site settings for ba-gmbg.ch project
 title: BA-GMBG.CH
-email: arlind@incodeks.com  # Update this with your email
+email: arlind@incodeks.com
 description: >- 
   This is the official website for BA-GMBG.CH.
-baseurl: "construct-org-ch/ba-gmbh.ch.git"  # Leave empty if your site is hosted at the root domain
-url: "http://construct-org-ch.github.io/"  # Update this when you deploy your site
+#baseurl: ""  # Leave empty if your site is hosted at the root domain
+baseurl: "construct-org-ch/ba-gmbh.ch.git"
+url: "http://www.ba-gmbh.ch"  # Update this when you deploy your site
 
 # Social media usernames (optional)
 twitter_username: your_twitter_handle  # Update this
-github_username: arlindkerqeli  # Update this
+github_username: arlindkerqeli
 
 # Build settings
 theme: minima

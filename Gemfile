@@ -1,22 +1,10 @@
 source "https://rubygems.org"
 
-# Comment out this line if you're using github-pages
-# gem "jekyll", "~> 3.9.3"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5.1"
-
-# Use the github-pages gem to align with GitHub's environment
+# Use the github-pages gem to align with GitHub Pages environment
 gem "github-pages", group: :jekyll_plugins
 
-# If you have any more plugins, put them here!
-group :jekyll_plugins do
-  # Comment out this line if you're using github-pages
-  # gem "jekyll-feed", "~> 0.15.1"
-end
-
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# and associated library. These are only necessary for development on Windows.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
