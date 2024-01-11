@@ -277,7 +277,7 @@
 <section class="contact_section">
     <div class="container-fluid contact-container">
         
-        <div class="row">
+        <div class="row row-contact-positioning">
             <div class="col-4">
                 <div class="heading_container">
                     <h2 class="contant-form-main-header">
@@ -289,23 +289,27 @@
                     <form action="">
                         <div class="input-positioning">
                             <label class="input-header" for="name">Name</label>
-                            <input type="text" placeholder="Type your name"/>
+                            <input class="input-style" type="text" placeholder="Type your name"/>
                         </div>
+                        <br>
                         <div class="input-positioning">
                             <label class="input-header" for="number">Phone Number</label>
-                            <input type="number" placeholder="Type your number"/>
+                            <input class="input-style" type="number" placeholder="Type your number"/>
                         </div>
+                        <br>
                         <div class="input-positioning">
                             <label class="input-header" for="email">Email</label>
-                            <input type="text" placeholder="Type your Email"/>
+                            <input class="input-style" type="text" placeholder="Type your Email"/>
                         </div>
+                        <br>
                         <div>
                             <div class="input-positioning">
-
                                 <label class="input-header" for="message">Message</label>
-                                <input type="text" class="message-box" placeholder="Type your message..."/>
+                                <input class="input-text-area" type="text" class="message-box" placeholder="Type your message..."/>
                             </div>
                         </div>
+                        <br>
+                        <br>
                         <div class="btn_box">
                             <button type="submit" class="save-contact-form-button">
                                 Save Form
@@ -314,7 +318,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-7">
                 <div class="map_container">
                     <div class="map">
                         <div id="googleMap"></div>
@@ -325,13 +329,124 @@
     </div>
 </section>
 
+<div class="container-fluid container-subscribe">
+    <img class="bottom-image-house-morning" src="images/bottom-image-house-morning.png" alt="">
+
+    <div class="subscribe-section">
+        <div class="subscribe-top-sec-header-postioning">
+            <h6 class="subscribe-header">
+                SUBSCRIBE 
+                <STRONg>NOW</STRONg>
+            </h6>
+        </div>
+
+        <div class="subscribe-bottom-sec-input">
+            <div class="input-wrapper">
+                <input type="email" class="subscribe-email-input" placeholder="Type your email here">
+                <button type="submit" class="submit-email-button">Subscribe</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
+<!-- end contact section -->
 
+<!-- info section -->
 
+<section class="info_section layout_padding2">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img class="footer-logo" src="images/B&A Logo White.png" alt="">
+                <p class="footer-under-logo-paragraph paragraph-footer mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, eligendi, sapiente facere perspiciatis</p>
+                <div class="info_social">
+                    <a href="">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br>
+            <div class="col">
+                <div class="info_link_box">
+                    <h4 class="footer-col-header">
+                        Menu
+                    </h4>
+                    <div class="info_links mt-3">
+                        <a class="menu-item" href="index.html">
+                            Home
+                        </a>
+                        <a class="menu-item" href="projekte.html">
+                            Projects
+                        </a>
+                        <a class="menu-item" href="partner.html">
+                            Partner
+                        </a>
+                        <a class="menu-item" href="contact.html">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="info_detail">
+                    <h4 class="footer-col-header">
+                        B und A Bau GmbH
+                    </h4>
+                    <p class="paragraph-footer mt-3">
+                        B und A Bau GmbH 
+                        <br>
+                        Roosstrasse
+                        <br>
+                        53 8832 Wollerau
+                    </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="info_contact">
+                    <h4 class="footer-col-header">
+                        Contact Us
+                    </h4>
+                    <div class="contact_link_box mt-3">
+                        <a class="menu-item" href="#">
+                            <span>
+                                043 818 12 93
+                            </span>
+                        </a>
+                        <br>
+                        <a class="menu-item" href="#">
+                            <span>
+                                079 315 93 46
+                            </span>
+                        </a>
+                        <br>
+                        <a class="menu-item" href="#">
+                            <span>
+                              Contact Person: <br>Besim Vranovci
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </div>
+</section>
 
 <!-- jQery -->
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
