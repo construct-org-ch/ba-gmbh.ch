@@ -27,6 +27,7 @@ body {
 
 
 .container-top{
+    height: 640px;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
@@ -40,7 +41,7 @@ body {
     top: 0;
     left: 0;
     width: 100%; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
+    height: 600px ; /* Adjust the height as needed */
     z-index: -1; /* Ensure the background image is behind the content */
 }
 
@@ -70,5 +71,227 @@ body {
     border: 1px solid #1C97AF;
     font-size: 16px;
     font-weight: 500;
+    color: #ffffff;
+}
+
+/* second row */
+
+.second-row-top-header{
+    font-weight: 400;
+    font-size: 40px;
+    color: #112438;
+}
+
+.second-row-paragraph{
+    width: 310px;
+     font-size: 17px; /*fontsize on design is 14px but it looks better if 17px and fits better */
+    font-weight: 500;
+    color: #112438;
+    margin-top: 30px;
+}
+
+.second-row-image-home-afternoon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Third row */
+
+.third-row-main-header{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.company_work_images{
+    border-radius: 30px !important;
+    width: 280px;
+    height: 200px;
+}
+
+/* fourth row */
+
+.fourth-row-head-tittle{
+    font-size: 50px;
+    font-weight: 400;
+    color: #112438;
+}
+
+.second-partner,
+.first-partner{
+    width: 100%;
+}
+
+.col-second-partner{
+    margin-top: auto !important;
+    margin-bottom: auto;
+}
+
+.container-partner-fourth-row{
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* fifth row  */
+
+.container-fifth-about{
+    margin-top: 10%;
+    background: #112438;
+    padding: 80px 30px;
+}
+
+.about-section-positioning{
+    text-align: center;
+}
+
+.about-section-header{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff ;
+    margin-bottom: 40px;
+}
+
+.about-section-paragraph {
+    width: 775px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-about-bottom{
+    margin-top: 6%;
+}
+
+.about-box-content{
+    border: 1px solid #ffffff;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.col-positioning{
+    display: flex;
+    justify-content: center;
+}
+
+.bi-quote{
+    color: white;
+}
+
+.box-content-header{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box-content-paragraph {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    width: 285px;
+}
+
+/* sixth row */
+
+.team-section{
+    margin-top: 5%;
+}
+
+.team-section-main-header{
+    font-size: 50px;
+    font-weight: 400;
+    color: #112438;
+    text-align: center;
+    margin-bottom: 4%;
+
+}
+
+.member-row{
+    justify-content: center;
+}
+
+.team-member-box{
+    border: 1px solid #1C97AF;
+    height: 500px;
+    width: 440px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.team-member-column{
+    display: flex;
+    justify-content: center;
+}
+
+.member-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.team-member-header{
+    font-weight: 700;
+    font-size: 30px;
+    color: #112438;
+}
+
+.team-member-paragraph{
+    font-weight: 500;
+    font-size: 25px;
+    color: #112438;
+    width: 340px;
+}
+
+/* seventh row */
+
+
+.contact_section .map_container {
+    width: 100%;
+    height: 568px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 0;
+}
+
+.contact_section .map_container .map {
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.contact_section .map_container .map #googleMap {
+    height: 100%;
+    border-radius: 30px;
+}
+
+.contact-container{
+    margin-top: 7%;
+    padding: 80px 20px;
+}
+
+.contact_section{
+    background-color: #112438;
+}
+
+.contant-form-main-header{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.input-positioning{
+    display: grid;
+}
+.input-header{
     color: #ffffff;
 }
