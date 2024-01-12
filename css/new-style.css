@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 3%;
+    margin-right: 8%;
     gap: 35px;
 }
 
@@ -42,6 +42,7 @@ body {
     left: 0;
     width: 100%; 
     height: 600px ; 
+    z-index: -1;
 }
 .paragraph-head{
     color: white;
