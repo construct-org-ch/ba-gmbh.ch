@@ -84,12 +84,13 @@ body {
 /* Page design  */
 
 .main-project-img{
-  width: 55%;
+  width: 36%;
 }
 
 .main-img{
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .project-text-content{
@@ -166,6 +167,28 @@ body {
 }
 
 #modal3 .btn-close {
+  position: absolute;
+  right: -60px;
+  top: -24px;
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 1;
+}
+
+
+#modal4 .modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+#modal4 .modal-body {
+  position: relative;
+  padding: 0px;
+  min-height: 400px;
+  background: #ccc;
+}
+
+#modal4 .btn-close {
   position: absolute;
   right: -60px;
   top: -24px;
