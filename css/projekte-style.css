@@ -1010,10 +1010,9 @@ a:focus {
     display: grid;
   }
   
-  .menu-item {
-    color: #ffffff8c;
-    text-decoration: none;
-  }
+  .menu-item :hover {
+    color: #0a97b0;
+}
   
 
   .row-projects{
