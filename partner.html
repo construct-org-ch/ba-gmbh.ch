@@ -31,7 +31,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/partner-style.css" rel="stylesheet"/>
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -41,36 +41,33 @@
 
 <body>
 
-<div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-
-        <div class="header_bottom">
-            <div class="container-fluid">
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="index.html">
-                      <span>
-                        <img class="logo-main scale-with-grid" src="images/b-a-logo.png" data-retina="" data-height="232"
-                             alt="Logo" data-no-retina="">
-                      </span>
+                        <span>
+                            <img class="logo-main" src="images/B&A Logo White.png" alt="Logo">
+                        </span>
                     </a>
-
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span class=""> </span>
+                        <span class="">
+                            <i class="bi bi-list"></i>
+                        </span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav  ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="projekte.html">PROJEKTE</a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="partner.html">PARTNER  <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="partner.html">PARTNER</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">KONTAKT</a>
@@ -79,21 +76,22 @@
                     </div>
                 </nav>
             </div>
-        </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
+        </header>
+    
+        <!-- slider section -->
         <section class="projekte_slider_section">
             <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-12 p-0">
-                        <img src="images/im-17.jpg" alt="Image description" class="img-fluid w-100" style="max-height: 1000px">
+                        <img class="top-sec-image" src="/images/image-bg.jpg" alt="Background Image">
                     </div>
                 </div>
             </div>
         </section>
-    <!-- end slider section -->
-</div>
+        <!-- end slider section -->
+    
+    </div>
+
 
 
 <!-- partner section -->
@@ -116,45 +114,15 @@
 
 
 
+
 <!-- info section -->
 
 <section class="info_section layout_padding2">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-3 info_col">
-                <div class="info_contact">
-                    <h4>
-                        Address
-                    </h4>
-                    <div class="contact_link_box">
-                        <a href="#">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>
-                                B und A Bau GmbH <br>
-                                Roosstrasse 53<br>
-                                8832 Wollerau
-                            </span>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>
-                                Tel: 043 818 12 93
-                            </span>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>
-                                Nat: 079 315 93 46
-                            </span>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-address-book" aria-hidden="true"></i>
-                            <span>
-                              Kontakt Person: <br>Besim Vranovci
-                            </span>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="col-logo-footer">
+                <img class="footer-logo" src="images/B&A Logo White.png" alt="">
+                <p class="footer-under-logo-paragraph paragraph-footer mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, eligendi, sapiente facere perspiciatis</p>
                 <div class="info_social">
                     <a href="">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -170,52 +138,74 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 info_col">
-                <div class="info_detail">
-                    <h4>
-                        B und A Bau GmbH
-                    </h4>
-                    <p>
-                        B und A Bau GmbH Roosstrasse 53 8832 Wollerau
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-2 mx-auto info_col">
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="info_link_box">
-                    <h4>
-                        Links
+                    <h4 class="footer-col-header">
+                        Menu
                     </h4>
-                    <div class="info_links">
-                        <a class="active" href="index.html">
-                            <img src="images/nav-bullet.png" alt="">
+                    <div class="info_links mt-3">
+                        <a class="menu-item" href="index.html">
                             Home
                         </a>
-                        <a class="" href="projekte.html">
-                            <img src="images/nav-bullet.png" alt="">
-                            PROJEKTE
+                        <a class="menu-item" href="projekte.html">
+                            Projekte
                         </a>
-                        <a class="" href="partner.html">
-                            <img src="images/nav-bullet.png" alt="">
-                            PARTNER
+                        <a class="menu-item" href="partner.html">
+                            Partner
                         </a>
-                        <a class="" href="contact.html">
-                            <img src="images/nav-bullet.png" alt="">
-                            KONTAKT
+                        <a class="menu-item" href="contact.html">
+                            Kontakt
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 info_col ">
-                <h4>
-                    Subscribe
-                </h4>
-                <form action="#">
-                    <input type="text" placeholder="Enter email"/>
-                    <button type="submit">
-                        Subscribe
-                    </button>
-                </form>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <div class="info_detail">
+                    <h4 class="footer-col-header">
+                        B und A Bau GmbH
+                    </h4>
+                    <p class="paragraph-footer mt-3">
+                        B und A Bau GmbH
+                        <br>
+                        Roosstrasse
+                        <br>
+                        53 8832 Wollerau
+                    </p>
+                </div>
             </div>
+
+            <div class="col-12  col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <div class="info_contact">
+                    <h4 class="footer-col-header">
+                        Contact Us
+                    </h4>
+                    <div class="contact_link_box mt-3">
+                        <a class="menu-item" href="#">
+                            <span>
+                                043 818 12 93
+                            </span>
+                        </a>
+                        <br>
+                        <a class="menu-item" href="#">
+                            <span>
+                                079 315 93 46
+                            </span>
+                        </a>
+                        <br>
+                        <a class="menu-item" href="#">
+                            <span>
+                                Kontakt Person: <br>Besim Vranovci
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 </section>

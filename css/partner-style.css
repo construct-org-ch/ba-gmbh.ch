@@ -7,10 +7,7 @@ body {
     overflow-x: hidden;
 }
 
-.logo-main {
-    width: 215px;
-    height: 50px;
-}
+
 
 .partners {
     padding: 40px 0;
@@ -220,7 +217,7 @@ a:focus {
 /*header section*/
 .hero_area {
     position: relative;
-    min-height: 100vh;
+    min-height: 75vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -973,18 +970,7 @@ a:focus {
     flex-direction: column;
 }
 
-.info_section .info_contact .contact_link_box a {
-    margin: 5px 0;
-    color: #ffffff;
-}
 
-.info_section .info_contact .contact_link_box a i {
-    margin-right: 5px;
-}
-
-.info_section .info_contact .contact_link_box a:hover {
-    color: #0a97b0;
-}
 
 .info_section .info_social {
     display: -webkit-box;
@@ -1026,20 +1012,7 @@ a:focus {
     flex-wrap: wrap;
 }
 
-.info_section .info_links a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 15px;
-    color: #ffffff;
-}
 
-.info_section .info_links a:hover {
-    color: #0a97b0;
-}
 
 .info_section form input {
     border: none;
@@ -1103,3 +1076,67 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* partner new designs */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+
+}
+.header_section {
+    z-index: 1;
+    position: relative;
+}
+
+.top-sec-image {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: -100px;
+}
+
+
+.info_section {
+    padding-top: 4%;
+    background: #112438;
+    padding-bottom: 4%;
+  }
+  
+  .paragraph-footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff8c;
+  }
+  
+  .footer-under-logo-paragraph {
+    width: 80%;
+  }
+  
+  .info_social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .fa-facebook,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-instagram {
+    color: #ffffff8c;
+    font-size: 24px;
+  }
+  
+  .footer-col-header {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .info_links {
+    display: grid;
+  }
+  
+  .menu-item {
+    color: #ffffff8c;
+    text-decoration: none;
+  }

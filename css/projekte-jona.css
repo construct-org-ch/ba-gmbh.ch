@@ -100,12 +100,13 @@ body {
   display: flex;
   justify-content: center;
   gap: 7px;
-  cursor: pointer;
 }
 
 .small-img{
   width: 18%;
   height: 400px;
+  cursor: pointer;
+
 }
 
 
