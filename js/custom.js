@@ -38,3 +38,28 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+(function (document) {
+    "use strict";
+    const ready = (callback) => {
+        if (document.readyState != "loading") callback();
+        else document.addEventListener("DOMContentLoaded", callback);
+    };
+
+    ready(() => {
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach((trigger) => {
+            trigger.addEventListener("click", (e) => {
+                const bigImage = e.target.getAttribute('data-bigimage');
+                const modalId = e.target.getAttribute('data-bs-target').substring(1); // Removing the # from the modal ID
+                const img = document.getElementById(`image-${modalId}`);
+                const modal = new bootstrap.Modal(document.getElementById(modalId));
+
+                modal.show();
+                
+                if (img) {
+                    img.src = bigImage;
+                }
+            });
+        });
+    });
+})(document);
