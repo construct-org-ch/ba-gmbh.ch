@@ -436,6 +436,23 @@ body {
   text-decoration: none;
 }
 
+/* footer section*/
+.footer_section {
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer_section p {
+    color: #04233b;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.footer_section p a {
+    color: inherit;
+}
+
 @media (max-width: 992px) {
   .paragraph-head {
     font-size: 40px;
