@@ -1019,6 +1019,10 @@ a:focus {
     justify-content: center;
   }
 
+  .navbar-collapse{
+    height: 0px;
+  }
+
 .header_section {
     z-index: 1;
     position: relative;
@@ -1086,3 +1090,216 @@ a:focus {
   text-decoration: none;
 }
 
+@media (max-width: 1200px) {
+
+    .row-projects{
+        gap: 10%;
+      }
+    
+}
+
+
+
+@media (max-width: 992px) {
+    
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+  
+    .nav-item {
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      margin-right: 0;
+    }
+  
+    .navbar-toggler {
+      background-color: white !important;
+      color: black !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .paragraph-head {
+      font-size: 33px;
+    }
+  
+    .second-row-paragraph {
+      width: 70%;
+      text-align: center;
+      position: relative;
+      left: 15%;
+      bottom: 42%;
+    }
+  
+    .second-row-top-header {
+      text-align: center;
+      position: relative;
+      bottom: 80px;
+      color: white;
+    }
+  
+    .col-paragraph-section-projects {
+      height: 150px;
+    }
+    .third-row-main-header {
+      text-align: center;
+    }
+  
+    .company_work_images {
+      width: 50%;
+      height: auto;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 3%;
+    }
+  
+    .about-box-content {
+      margin-top: 3%;
+      width: 80%;
+    }
+  
+    .input-wrapper {
+      width: 80%;
+    }
+  
+    .subscribe-email-input {
+      width: 65%;
+    }
+  
+    .submit-email-button {
+      width: 30%;
+      height: 45px;
+    }
+  
+    .col-footer {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .footer-logo {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .footer-under-logo-paragraph {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
+    }
+  
+    .info_social {
+      justify-content: center;
+    }
+  
+    .paragraph-footer,
+    .menu-item {
+      text-align: center;
+    }
+  
+    .footer-col-header {
+      margin-top: 4%;
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .contact_link_box {
+      text-align: center;
+    }
+  
+    #col-logo-footer {
+      display: grid;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .paragraph-head {
+      font-size: 24px;
+    }
+    .custom-padding{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+  
+    .underparagraph-head {
+      width: 80%;
+    }
+  
+    .contant-form-main-header {
+      white-space: nowrap;
+    }
+  
+    #col-form-submit {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .form_container contact-form {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .input-style,
+    .input-text-area {
+      width: 100%;
+    }
+  
+    .btn_box {
+      margin-bottom: 5%;
+    }
+  
+    .team-member-box {
+      width: 62%;
+    }
+  
+    .carousel-item {
+      margin-top: 7%;
+    }
+  
+    .submit-email-button {
+      width: 30%;
+      font-size: 14px;
+    }
+  
+    .subscribe-email-input {
+      width: 68%;
+    }
+  }
+  
+  @media (max-width: 386px) {
+    .team-member-box {
+      width: 80%;
+    }
+  
+    .third-row-main-header {
+      margin-top: 10%;
+    }
+  
+    .input-wrapper {
+      width: 90%;
+    }
+  
+    .carousel-item {
+      margin-top: 10%;
+    }
+  
+    .submit-email-button {
+      width: 30%;
+    }
+  
+    .subscribe-email-input {
+      width: 64%;
+    }
+  
+    .input-positioning {
+      justify-content: center;
+    }
+  
+    .contant-form-main-header {
+      font-size: 33px;
+    }
+  }
